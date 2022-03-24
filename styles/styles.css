@@ -139,10 +139,12 @@ header img{
 
 .pokemonGrid{
     position: relative;
-    left: 8%;
-    bottom: 20%;
+    left: 27%;
+    bottom: 18%;
     grid-column-start: 4;
     grid-row-start: 4;
+    min-width: 250px;
+    min-height: 250px;
     /* z-index: 1; */
 }
 
