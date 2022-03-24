@@ -12,18 +12,20 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="">
     </header>
     <section class="search-bar">
-        <input type="text" name="pokemonName" id="pokemonName" placeholder="E.g. Squirtle, Pikachu">
-        <button onclick="" id="searchPokemon"><img src="./assets/img/Pokebola-pokeball-png-0.png" alt="pokeball acting as a button"></button>
+        <input type="text" name="pokemonSearch" id="pokemonSearch" placeholder="E.g. Squirtle, Pikachu">
+        <button onclick="" id="searchPokemon"><img src="./assets/img/Pokebola.png" alt="pokeball acting as a button"></button>
     </section>
     
     <section class="card-section">
         <div class="card">
             <div class="half-1">
                 <h1 id="pokemonName">Ditto</h1>
-                <!-- <div>
-                    <img src="./assets/img/almost_circle.svg" alt="" class="background__circle" style="width: 280px;">
-                    <img id="pokemonImage" class="pokemonGrid" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png" alt="" style="width: 250px;">
-                </div> -->
+                <div class="background__circle">
+                    <img src="./assets/img/almost_circle.svg" alt="" style="width: 280px;">
+                </div>
+                <div class="pokemonGrid">
+                    <img id="pokemonImage" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg" alt="" style="width: 240px;">
+                </div>
             </div>
             <div style="z-index: 2; display: flex; flex: 1 1 100px; justify-content: space-around; margin: 0; padding: 0;">
                 <hr color="#FFF9A5" style="width: 350px; height: 2px; border-radius: 40px;">
@@ -31,53 +33,57 @@
                 <hr color="#FFF9A5" style="width: 25px; height: 2px; border-radius: 40px;">
             </div>
             <div class="half-2">
-                <h2>POKÉDEX ENTRY</h2>
+                <div class="half-2-1">
+                    <h2>POKÉDEX ENTRY</h2>
                 <p>
                     It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes. 
                 </p>
-
-                <h2>STATS</h2>
-                <div class="stats__container">
-                    <div>
-                        <div class="stats__circle" style="background-color: #DD2542;">
-                            <p>HP</p>
+                </div>
+                <div class="half-2-2">
+                    <h2>STATS</h2>
+                    <div class="stats__container">
+                        <div>
+                            <div class="stats__circle" style="background-color: #DD2542;">
+                                <p>HP</p>
+                            </div>
+                            <p id="hpStat" class="valueStat">48</p>
                         </div>
-                        <p>48</p>
-                    </div>
-                    <div>
-                        <div class="stats__circle" style="background-color: #FF9851;">
-                            <p>ATK</p>
+                        <div>
+                            <div class="stats__circle" style="background-color: #FF9851;">
+                                <p>ATK</p>
+                            </div>
+                            <p id="atkStat" class="valueStat">48</p>
                         </div>
-                        <p>48</p>
-                    </div>
-                    <div>
-                        <div class="stats__circle" style="background-color: #FDE06E;">
-                            <p>DEF</p>
+                        <div>
+                            <div class="stats__circle" style="background-color: #FDE06E;">
+                                <p>DEF</p>
+                            </div>
+                            <p id="defStat" class="valueStat">48</p>
                         </div>
-                        <p>48</p>
-                    </div>
-                    <div>
-                        <div class="stats__circle" style="background-color: #87DCFF;">
-                            <p>SATK</p>
+                        <div>
+                            <div class="stats__circle" style="background-color: #87DCFF;">
+                                <p>SATK</p>
+                            </div>
+                            <p id="satkStat" class="valueStat">48</p>
                         </div>
-                        <p>48</p>
-                    </div>
-                    <div>
-                        <div class="stats__circle" style="background-color: #A9EE88;">
-                            <p>SDEF</p>
+                        <div>
+                            <div class="stats__circle" style="background-color: #A9EE88;">
+                                <p>SDEF</p>
+                            </div>
+                            <p id="sdefStat" class="valueStat">48</p>
                         </div>
-                        <p>48</p>
-                    </div>
-                    <div>
-                        <div class="stats__circle" style="background-color: #FB94A8;">
-                            <p>SPD</p>
+                        <div>
+                            <div class="stats__circle" style="background-color: #FB94A8;">
+                                <p>SPD</p>
+                            </div>
+                            <p id="spdStat" class="valueStat">48</p>
                         </div>
-                        <p>48</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- <img src="./assets/img/pokeball.svg" alt="" style="width: 50px;"> -->
     <script src="./scripts/app.js"></script>
 </body>
 </html>

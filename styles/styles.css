@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-image: url("https://external-preview.redd.it/z7_wYb9-YSvt0pDJlDIu8iuK_aWdqZPg0wvrGdwNvBw.png?auto=webp&s=b40bf3d0bccf7fe4f8dc601182710ca34eac2222");
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    
+}
+
+h1, h2, p{
+    font-family: Rubik;
+    color: #ffffff;
+}
+
+p{
+    font-weight: 600;
 }
 
 header{
@@ -19,6 +36,7 @@ header img{
     width: 400px;
     min-height: 100px;
     height: 150px;
+    min-width: 150px;
     /* left: 45%; */
 }
 
@@ -94,42 +112,84 @@ header img{
     border-radius: 40px 30px 0px 0px;
     height: 35%;
     width: 100%;
-    /* display: grid;
+    min-width: 250px;
+    display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(8, 1fr);
-    gap: 1rem; */
+    gap: 1rem;
+    /* z-index: -2; */
 }
 
-/* #pokemonName{
+.half-1 h1{
     grid-column-start: 4;
-    grid-column-end: span 2;
-    margin: auto;
-} */
-
-/* .background__circle{
     grid-row-start: 2;
-    grid-row-end: span 2;
+    /* grid-column-end: span 2; */
+    margin: auto;
+}
+
+.background__circle{
+    height: 220px;
     grid-column-start: 4;
-    grid-column-end: 6;
-    z-index: 0;
+    grid-row-start: 3;
+    grid-row-end: span col5-end;
+    /* z-index: 2; */
+    /* position: relative;
+    top: 2px; */
 }
 
 .pokemonGrid{
+    position: relative;
+    left: 8%;
+    bottom: 20%;
     grid-column-start: 4;
-    grid-column-end: span 2;
-    grid-row-start: 1;
-    z-index: 1;
-} */
+    grid-row-start: 4;
+    /* z-index: 1; */
+}
 
 .half-2{
     border-radius: 0 0 40px 40px;
     width: 100%;
     height: 65%;
+    min-width: 200px;
+}
+
+.half-2-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.half-2-1 h2{
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    margin: auto;
+}
+
+.half-2-1 p{
+    grid-row-start: 2;
+    grid-row-end: span 80px;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    line-height: 1.8;
+}
+
+.half-2-2{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 150px;
+}
+
+.half-2-2 h2{
+    margin: 20px auto;
 }
 
 .stats__container{
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    margin-top: 15px;
+    min-width: 200px;
 }
 
 .stats__container div{
@@ -144,14 +204,22 @@ header img{
     flex-direction: column;
     align-items: center;
     border: none;
+    min-width: 50px;
 }
 
 div.stats__circle{
     border-radius: 50%;
-    background-color: #E62525;
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 0.5px;
+    min-height: 0.5px;
+}
+
+.valueStat{
+    color: #000000;
+    font-weight: 700;
+    font-size: 16pt;
 }
