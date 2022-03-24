@@ -6,8 +6,8 @@ Para esta práctica se nos pidió implementar lo aprendido en dicha semana, con 
 
 El diseño de la interfaz fue inspirado a partir de los siguientes proyectos:
 
-* [Pokemons is everywhere](https://www.behance.net/gallery/45859535/Pokemons-is-everywhere/modules/274030343)
-* [Pokemon - Pokedex Website Redesign Concept](https://www.behance.net/gallery/113562309/Pokemon-Pokedex-Website-Redesign-Concept/modules/648800201)
+* <a href="https://www.behance.net/gallery/45859535/Pokemons-is-everywhere/modules/274030343" target="_blank">Pokemons is everywhere</a>
+* <a href="https://www.behance.net/gallery/113562309/Pokemon-Pokedex-Website-Redesign-Concept/modules/648800201" target="_blank">Pokemon - Pokedex Website Redesign Concept</a>
 
 La interfaz quedó como se muestra en la imagen siguiente.
 
@@ -17,6 +17,6 @@ La interfaz quedó como se muestra en la imagen siguiente.
     </div>
 </figure>
 
-Además, se consultó el API provisto por [PokeAPI](https://pokeapi.co/).
+Además, se consultó el API provisto por <a href="https://pokeapi.co/" target="_blank">PokéAPI</a>.
 
-Por otro lado, la página desplegada se puede encontrar en el siguiente enlace: [Pokédex](https://pokedex-marcoslm.netlify.app/).
+Por otro lado, la página desplegada se puede encontrar en el siguiente enlace: <a href="https://pokedex-marcoslm.netlify.app/" target="_blank">Pokédex</a>.
