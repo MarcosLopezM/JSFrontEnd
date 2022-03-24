@@ -19,4 +19,4 @@ La interfaz quedó como se muestra en la imagen siguiente.
 
 Además, se consultó el API provisto por [PokeAPI](https://pokeapi.co/).
 
-Por otro lado, la página desplegada se puede encontrar en el siguiente enlace: [Pokédez](https://pokedex-marcoslm.netlify.app/).
+Por otro lado, la página desplegada se puede encontrar en el siguiente enlace: [Pokédex](https://pokedex-marcoslm.netlify.app/).
